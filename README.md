@@ -6,3 +6,5 @@ Just a personal "luncher" I use to quickly install some softwares I frequently u
 </p>
   
 There probably is a faster and easier way to do the same thing but hey, I'm still learning.  
+
+ To [download](https://wemy.ninja/sim/) the whole archive 

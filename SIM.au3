@@ -1,8 +1,9 @@
-#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+a#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Version=Beta
 #AutoIt3Wrapper_Icon=images\icon.ico
 #AutoIt3Wrapper_Res_Comment=TSSR2020
 #AutoIt3Wrapper_Res_Description=S.I.M
-#AutoIt3Wrapper_Res_Fileversion=0.1.0.2
+#AutoIt3Wrapper_Res_Fileversion=0.1.0.3
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
 #AutoIt3Wrapper_Res_ProductName=Silent Install Manager
 #AutoIt3Wrapper_Res_ProductVersion=1.0
@@ -115,9 +116,14 @@ $Python = GUICtrlCreateButton("Python", 16, 224, 91, 25)
 GUICtrlSetFont(-1, 9, 400, 0, "Tahoma")
 GUICtrlSetOnEvent($Python, "Python")
 
-$bginfo = GUICtrlCreateButton("BGinfo", 120, 224, 89, 25)
+$pycharm = GUICtrlCreateButton("PyCharm", 120, 224, 89, 25)
 GUICtrlSetFont(-1, 9, 400, 0, "Tahoma")
-GUICtrlSetOnEvent($bginfo, "BGinfo")
+GUICtrlSetOnEvent($pycharm, "PyCharm")
+
+$bginfo = GUICtrlCreateButton("BGinfo", 224, 224, 89, 25)
+GUICtrlSetFont(-1, 9, 400, 0, "Tahoma")
+GUICtrlSetOnEvent($bginfo, "BGInfo")
+
 ; ##########  $SilentInstallWemy ##########
 
 GUISetState(@SW_SHOW, $SilentInstallWemy )
@@ -252,4 +258,9 @@ EndFunc
 Func bginfo()
 	TrayTip("BGInfo","Installation in progress",1000)
 	RunWait(@ComSpec & ' /c "start Soft\BGInfo\Bginfo64.exe" ')
+EndFunc
+
+Func pycharm()
+	TrayTip("PyCharm","Installation in progress",1000)
+	RunWait(@ComSpec & ' /c "Soft\pycharm-community-2020.1.3.exe /S /CONFIG=Soft\pycharm\silent.config /D=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3" ')
 EndFunc

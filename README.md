@@ -1,5 +1,5 @@
 # Silent Install Manager  
-Just a personal "launcher" I use to quickly install some softwares I frequently use/install on virtual machines.
+Just a personal "launcher" I use to quickly install the softwares I frequently use/install on virtual machines.
 
 <p align="center">
   <img src="sim_int.png">

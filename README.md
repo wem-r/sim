@@ -4,6 +4,7 @@ Just a personal "launcher" I use to quickly install the softwares I frequently u
 <p align="center">
   <img src="sim_int.png">
 </p>
+Currently rewriting it in python
   
 There probably is a faster and easier way to do the same thing but hey, I'm still learning.  
 

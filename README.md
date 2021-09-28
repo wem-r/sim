@@ -6,8 +6,10 @@ Just a personal "launcher" I use to quickly install things I frequently use/inst
 </p>  
 
 <details>
-    <summary>Currently rewriting it in python</summary>
-    ![](SIM_py_version.jpg)
+    <summary>Currently rewriting it in python (and adding a few features)</summary>
+    <p align="center">
+      <img src="SIM_py_version.jpg">
+    </p>  
 </details>
 There probably is a faster and easier way to do the same thing but hey, I'm still learning.  
 

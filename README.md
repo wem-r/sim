@@ -1,16 +1,11 @@
 # Silent Install Manager  
-Just a personal "launcher" I use to quickly install things I frequently use/install on virtual machines.
+Just a personal "launcher" I use to quickly install things I frequently use or need to do on a VM.
 
-<p align="center">
-  <img src="sim_int.png">
-</p>  
+This started as a way to learn scripting. \
+The fisrt version was done with AutoIt, but then I rewrote everything in Python (with tkinter for the GUI).
 
-<details>
-    <summary>Currently rewriting it in python (and adding a few features)</summary>
-    <p align="center">
-      <img src="SIM_py_version.jpg">
-    </p>  
-</details>
-There probably is a faster and easier way to do the same thing but hey, I'm still learning.  
+<p align="center"><img src="SIM_py_version.jpg"></p> 
+
+There probably is a faster and easier way to do the same thing but like I said, I'm still learning.  
 
 To [download](https://wemy.ninja/sim/) the whole archive 

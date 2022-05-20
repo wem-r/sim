@@ -19,4 +19,4 @@ Python is not installed by default on Windows, so I used [auto-py-to-exe](https:
 ---
 
 
-
+I was busy on other project so that's why there only the source code of the old AutoIT version, the python version is not quite ready.

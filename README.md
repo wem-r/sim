@@ -11,31 +11,12 @@ There probably is a faster and easier way to do the same thing but like I said, 
 ---
 
 There's two differents verison. 
-- 1 (offline) containing all the differents .exe. The downside is that the archive can be quite big (+1GB).
-- 1 (online) who will only download what you want to install. The downside is that an internet connexion si required.
+- One offline version containing all the differents .exe. *The downside is that the archive can be quite big (+1GB).*
+- One "online" version who will only download what you want to install. The downside is that an internet connexion is required.
 
 Python is not installed by default on Windows, so I used [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/)  which is using [pyinstaller](https://pypi.org/project/pyinstaller/) to "compile" an executable.
 
-<br>
+---
 
-If you wish to do it yoursefl :
 
-```bash
-git glone https://github.com/wem-r/sim.git
-cd sim
-pip install pyinstaller
-```
-for the Offline version
-
-```bash
-cd SIM-Offline
-pyinstaller SIM_Offline.py
-```
-
-for the Online version
-
-```bash
-cd SIM-Online
-pyinstaller SIM_Online.py
-```
 

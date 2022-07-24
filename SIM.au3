@@ -7,8 +7,6 @@ a#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
 #AutoIt3Wrapper_Res_ProductName=Silent Install Manager
 #AutoIt3Wrapper_Res_ProductVersion=1.0
-#AutoIt3Wrapper_Res_CompanyName=CEFIM
-#AutoIt3Wrapper_Res_LegalCopyright=Remy RATRON - sim@ratron.fr
 #AutoIt3Wrapper_Res_requestedExecutionLevel=requireAdministrator
 #AutoIt3Wrapper_Res_Field=Made by|Wemy
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
